@@ -1,0 +1,111 @@
+.header {
+  position: relative;
+  width: 100%;
+  background-color: #0e0c1d;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  z-index: 10000;
+}
+
+.header div.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.nav-link {
+  color: #babaff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: white;
+}
+
+.nav .nav-item .nav-link.active {
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.mobileNavLink h3 {
+  font-size: 1.06rem;
+  color: #c4adee;
+  text-transform: uppercase;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.mobileNavItem {
+  border-top: 1px solid rgba(196, 173, 238, 0.2);
+  width: 100%;
+  cursor: pointer;
+  padding: 0.7rem 0.3rem;
+  border-bottom: 1px solid rgba(196, 173, 238, 0.2);
+}
+
+.mobileNavLink {
+  text-decoration: none;
+}
+
+.hamburger-react {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .hamburger-react {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .buttonContainer a:nth-child(1) {
+    display: none;
+  }
+
+  .header {
+    position: fixed;
+  }
+
+  .header div.container {
+    height: 80px;
+  }
+
+  .header div.container a svg {
+    width: 100px;
+    height: 60px;
+  }
+
+  .buttonBG {
+    font-size: 12px;
+    line-height: 5px;
+  }
+
+  .mobileMenu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh);
+    z-index: 100;
+    padding: 5.5rem 1rem 1rem;
+    background-color: #261b42;
+    overscroll-behavior: contain;
+    overflow: scroll;
+    filter: drop-shadow(rgb(12, 6, 30) 0px 0px 2px);
+    transition: transform 0.3s ease-out 0s, opacity 0.3s ease-out 0s;
+  }
+}

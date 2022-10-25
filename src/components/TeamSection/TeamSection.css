@@ -1,0 +1,90 @@
+.teamContainer {
+  position: relative;
+}
+
+.teamContainer .container {
+  padding-bottom: 50px;
+}
+
+.teamBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: -1;
+}
+
+.teamContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+}
+
+.teamContent h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sectionSeparator {
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(171, 84, 244, 0),
+    rgba(171, 84, 244, 0.5) 25%,
+    rgb(255, 255, 255) 50%,
+    rgba(171, 84, 244, 0.5) 75%,
+    rgba(171, 84, 244, 0)
+  );
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.teamSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.teamSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.teamSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .teamContent p {
+    text-align: center;
+  }
+
+  .teamContent {
+    width: 85%;
+  }
+}

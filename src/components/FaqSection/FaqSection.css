@@ -1,0 +1,46 @@
+.faqContainer {
+  /* background-color: #0e0c1d; */
+  position: relative;
+  background: radial-gradient(
+      74.71% 39.98% at 49.97% 100%,
+      rgba(102, 0, 183, 0.72) 0%,
+      rgba(12, 53, 115, 0) 100%
+    ),
+    radial-gradient(
+      63.34% 63.34% at 50% 36.66%,
+      rgba(58, 0, 183, 0.72) 0%,
+      rgba(12, 53, 115, 0) 100%
+    ),
+    rgb(19, 10, 42);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 8px;
+}
+
+.faqContainer div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.faqContainer .sectionSeparator {
+  height: 2px;
+  width: 50%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(171, 84, 244, 0),
+    rgba(171, 84, 244, 0.5) 25%,
+    rgb(255, 255, 255) 50%,
+    rgba(171, 84, 244, 0.5) 75%,
+    rgba(171, 84, 244, 0)
+  );
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.faqContainer div h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}

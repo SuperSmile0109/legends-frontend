@@ -1,0 +1,24 @@
+.teamMemberContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamMemberAvatar {
+  width: 300px;
+  height: 300px;
+}
+
+.teamMemberContainer .role {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.teamMemberContainer .memberName {
+  color: #a3ff12;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0;
+}

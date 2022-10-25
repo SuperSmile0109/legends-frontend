@@ -1,0 +1,80 @@
+.introductionContainer {
+  background-color: #0e0c1d;
+}
+
+.introductionContainer div.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.introductionLogo {
+  width: 200px;
+  height: 120px;
+}
+
+.introductionContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introductionText {
+  color: white;
+  width: 40%;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.introductionVideo {
+  width: 50%;
+  height: 346px;
+  object-fit: cover;
+}
+
+.introductionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downloadButtonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.downloadButtonContainer div img {
+  width: 20px;
+  height: 25px;
+}
+
+.downloadButtonContainer span {
+  color: white;
+  margin-inline: 12px 0px;
+}
+
+.downloadButton {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .introductionHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .introductionContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .introductionText {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .introductionVideo {
+    width: 100%;
+  }
+}

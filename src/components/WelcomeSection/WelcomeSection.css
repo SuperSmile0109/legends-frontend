@@ -1,0 +1,50 @@
+@font-face {
+  font-family: skygrazeFont;
+  src: url("../../assets/fonts/Skygraze-PKYod.ttf");
+}
+
+.welcomeContainer {
+  position: relative;
+  padding: 18rem 0px;
+}
+
+.welcomeContainerBG {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 46% 10%;
+  z-index: -1;
+}
+
+.welcomeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo2 {
+  width: 30%;
+}
+
+.welcomeText {
+  font-family: skygrazeFont;
+  color: white;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 425px) {
+  .logo2 {
+    width: 80%;
+  }
+
+  .welcomeText {
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+}
