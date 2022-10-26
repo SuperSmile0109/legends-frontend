@@ -18,7 +18,7 @@ import {
 
 export const dashboardTextAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/dashboardAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/dashboardAction', formData);
         dispatch({
             type: SET_DASHBOARD_TEXT,
             payload: res.data
@@ -30,7 +30,7 @@ export const dashboardTextAction = (formData) => async dispatch => {
 
 export const contactUsTextAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/contactUsAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/contactUsAction', formData);
         dispatch({
             type: SET_CONTACTUS_TEXT,
             payload: res.data
@@ -42,7 +42,7 @@ export const contactUsTextAction = (formData) => async dispatch => {
 
 export const mapAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/mapAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/mapAction', formData);
         dispatch({
             type: SET_MAP_TEXT,
             payload: res.data
@@ -54,7 +54,7 @@ export const mapAction = (formData) => async dispatch => {
 
 export const mapLinkAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/mapLinkAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/mapLinkAction', formData);
         dispatch({
             type: SET_MAP_LINK,
             payload: res.data
@@ -66,7 +66,7 @@ export const mapLinkAction = (formData) => async dispatch => {
 
 export const collectAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/collectAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/collectAction', formData);
         dispatch({
             type: SET_COLLECT_TEXT,
             payload: res.data
@@ -78,7 +78,7 @@ export const collectAction = (formData) => async dispatch => {
 
 export const collectImgAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/collectImgAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/collectImgAction', formData);
         dispatch({
             type: SET_COLLECTIMGS,
             payload: res.data
@@ -90,7 +90,7 @@ export const collectImgAction = (formData) => async dispatch => {
 
 export const ourteamAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/ourteamAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/ourteamAction', formData);
         dispatch({
             type: SET_OURTEAM_TEXT,
             payload: res.data
@@ -102,7 +102,7 @@ export const ourteamAction = (formData) => async dispatch => {
 
 export const memberAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/teamAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/teamAction', formData);
         dispatch({
             type: SET_MEMBERS,
             payload: res.data
@@ -114,7 +114,7 @@ export const memberAction = (formData) => async dispatch => {
 
 export const faqsAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/faqsAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/faqsAction', formData);
         dispatch({
             type: SET_FAQS,
             payload: res.data
@@ -126,7 +126,7 @@ export const faqsAction = (formData) => async dispatch => {
 
 export const partnershipAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/partnershipAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/partnershipAction', formData);
         dispatch({
             type: SET_PARTNERS,
             payload: res.data
@@ -138,7 +138,7 @@ export const partnershipAction = (formData) => async dispatch => {
 
 export const socialLinkAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/socialLinkAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/socialLinkAction', formData);
         dispatch({
             type: SET_SOCIALLINKS,
             payload: res.data
@@ -150,7 +150,7 @@ export const socialLinkAction = (formData) => async dispatch => {
 
 export const availableAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/availableAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/availableAction', formData);
         dispatch({
             type: SET_AVAILABLES,
             payload: res.data
@@ -162,7 +162,7 @@ export const availableAction = (formData) => async dispatch => {
 
 export const tokenPriceAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/tokenPriceAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/tokenPriceAction', formData);
         dispatch({
             type: SET_TOKENPRICE,
             payload: res.data
@@ -174,7 +174,7 @@ export const tokenPriceAction = (formData) => async dispatch => {
 
 export const tokenPercentAction = (formData) => async dispatch => {
     try {
-        var res = await api.post('http://127.0.0.1:9002/api/auth/tokenPercentAction', formData);
+        var res = await api.post('http://82.180.161.198:9002/api/auth/tokenPercentAction', formData);
         dispatch({
             type: SET_TOKENPERCENT,
             payload: res.data
